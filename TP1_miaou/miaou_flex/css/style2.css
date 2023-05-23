@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+
+
+body{  
+    font-family: Shadows Into Light;
+}
+
+.container{
+    background-color: #29347B;
+    width: 50%;
+    margin: auto;
+}
+
+.rang{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+img{
+    width: 80%;
+}
+
+/* .rang>div{
+    margin: 0 30px;
+} */
+
+h1, p{
+    text-align: center;
+    color: white;
+}
+
+h1{
+    font-size: 50px;
+}
+
+p{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+section>div>div{
+    height: 180px;
+}
+section>div{
+    width: 30%;
+    text-align: center;
+    height: 260px;
+}
+
+@media(max-width:960px){
+    .container{
+        width: 100%;
+        background-color: cyan;
+    }
+
+    img{
+        width: 100%;
+    }
+
+    section>div{
+        width: 50%;
+    }
+
+    /* section>div>div{
+        height: 50px;
+    } */
+    
+}
+
+@media(max-width:600px){
+    section>div{
+        width: 100%;
+    }
+}

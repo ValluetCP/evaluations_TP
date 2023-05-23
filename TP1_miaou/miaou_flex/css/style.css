@@ -7,7 +7,7 @@ body{
 }
 
 main{
-    background-color: #29347B;
+    background-color: #273979;
     width: 50%;
     margin: auto;
 }
@@ -16,6 +16,7 @@ main{
     display: flex;
     justify-content: space-around;
 }
+
 
 h1, p{
     text-align: center;
