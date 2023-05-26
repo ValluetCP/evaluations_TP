@@ -1,0 +1,167 @@
+
+/* ------ Importer des polices ------ */
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,500,500i,700");
+
+body{
+    font-family: "Comorant";
+    width: 1024px;
+    margin: auto;
+}
+
+header{
+    margin-top: 50px;
+}
+
+h1,
+header>div{
+    text-align: center;
+}
+
+/* .navigation{
+    position: fixed;
+    text-align: center;
+} */
+
+.assiette{
+    position: relative;
+    display: flex;
+    justify-content: left;
+    margin-left: 50px;
+}
+
+.legende{
+    position: absolute;
+    transform: translate(80%, -200%);
+}
+
+.plat{
+    border-bottom: 1px solid #000;
+    width: 500px;
+}
+
+.legende>p{
+    text-transform: uppercase;
+}
+
+nav{
+    margin-bottom: 50px;
+}
+
+nav>ul{
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    padding: 0 20px;
+    /* height: auto; */
+}
+
+ul p{
+    margin: 0 10px;
+}
+
+
+
+li>a{
+    text-decoration: none;
+    color: black;
+}
+
+hr{
+    width: 800px;
+}
+
+.legende{
+    text-align: right;
+}
+
+/* .legende>div>hr{
+    width: 200px;
+    text-align: right;
+} */
+
+/* .text>div{
+    padding: 0 20px;
+} */
+
+
+
+
+                            /* MAIN */
+
+/* main{
+    width: 1200px;
+} */
+
+h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    /* margin-top: 80px; */
+}
+
+section{
+    display: flex;
+    align-items: center;
+}
+
+.section2,
+.section3,
+.section{
+    display: flex;
+}
+
+section p{
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.text{
+    padding: 0 20px;
+}
+
+.text>div{
+    border-bottom: 1px solid #000;
+}
+
+section>div{
+    width: 50%;
+}
+
+.image>img{
+    width: 100%;
+}
+
+.note{
+    background-color: black;
+    color: white;
+    width: 200px;
+    padding: 10px;
+}
+
+.section2,
+.section4{
+    flex-direction: row-reverse;
+}
+
+/* FOOTER */
+
+footer h5.titre {
+    color: black;
+    font-size: 1rem;
+    padding: 3.5rem 0;
+    background-image: url(../img/plan.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+footer{
+    text-align: center;
+    margin: 110px 0;
+}
+
+h3{
+    text-transform: uppercase;
+}
