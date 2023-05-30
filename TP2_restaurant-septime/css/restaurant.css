@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,500,500i,700");
 
 body{
-    font-family: "Comorant";
+    font-family: "Cormorant Garamond";
     width: 1024px;
     margin: auto;
 }
@@ -12,9 +12,30 @@ header{
     margin-top: 50px;
 }
 
+/* .entete{
+    width: 50%;
+    margin: auto;
+}
+
+h1{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+} */
+
+/* h1, 
+hr{
+    margin: auto;
+    width: 50%;
+} */
+
 h1,
 header>div{
     text-align: center;
+}
+
+.city{
+    color: #883b1f;
+    font-weight: 500;
 }
 
 /* .navigation{
@@ -60,7 +81,8 @@ ul{
 }
 
 ul p{
-    margin: 0 10px;
+    margin: 0 5px;
+    font-weight: 500i;
 }
 
 
@@ -87,7 +109,9 @@ hr{
     padding: 0 20px;
 } */
 
-
+h3{
+    letter-spacing: 6px;
+}
 
 
                             /* MAIN */
@@ -100,6 +124,7 @@ h2{
     text-transform: uppercase;
     font-size: 20px;
     /* margin-top: 80px; */
+    letter-spacing: 2px;
 }
 
 section{
@@ -107,22 +132,30 @@ section{
     align-items: center;
 }
 
-.section2,
+.marges{
+    margin: 30px;
+}
+
+/* .section2,
 .section3,
 .section{
     display: flex;
-}
+} */
 
 section p{
     font-size: 15px;
     line-height: 20px;
+    margin: 40px 0;
 }
 
-.text{
-    padding: 0 20px;
-}
+/* .text{
+    align-items: center;
+} */
 
-.text>div{
+/* .text>div{
+    border-bottom: 1px solid #000;
+} */
+.marges>div{
     border-bottom: 1px solid #000;
 }
 
