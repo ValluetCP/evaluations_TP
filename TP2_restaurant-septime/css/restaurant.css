@@ -9,16 +9,17 @@ body{
 }
 
 header{
-    margin-top: 50px;
+    padding-top: 50px;
+    position: sticky;
+    top: 0;
+    z-index: 7;
+    background-color: white;
+
 }
 
 .entete{
     width: 50%;
     margin: auto;
-    position: sticky;
-    top: 0;
-    z-index: 7;
-    background-color: white;
 }
 
 h1{
@@ -88,7 +89,7 @@ nav>ul{
 ul{
     list-style-type: none;
     display: flex;
-    padding: 0 20px;
+    padding: 10px 20px;
     /* height: auto; */
 }
 
