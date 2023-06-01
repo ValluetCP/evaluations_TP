@@ -209,14 +209,14 @@ html {
 .btn_f{
     height: 60px; 
     width: 60px;
-    background: white;
+    /* background: white; */
     border-radius: 50%;
     border: 1px solid gray;
     display: flex;
     justify-content: center;
     align-items: center;
     position: fixed;
-    left: 190px;
+    right: 190px;
     bottom: 32px;
     cursor: pointer;
  }

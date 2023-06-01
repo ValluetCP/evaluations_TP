@@ -1,4 +1,4 @@
-const btn = document.querySelector('.btn_f', '.icone');
+const btn = document.querySelector('.btn_f');
 
 btn.addEventListener('click', () => {
 
