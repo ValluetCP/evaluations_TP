@@ -246,10 +246,12 @@ html {
     width: 20px;
 }
 
-/* .btn_f>a:hover{
-    color: gray;
-} */
-
+.btn_f>a{
+    color: black;
+}
+.btn_f>a:hover{
+    color: rgb(168, 168, 168);
+}
 
 
 /* .btn_f>a{
