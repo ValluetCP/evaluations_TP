@@ -151,6 +151,7 @@ section{
     align-items: center;
 }
 
+
 .marker1 {
     position: absolute;
     top: 550px;
@@ -241,9 +242,19 @@ html {
     cursor: pointer;
  }
 
- .icone{
-    width: 50%;
+.icone{
+    width: 20px;
 }
+
+/* .btn_f>a:hover{
+    color: gray;
+} */
+
+
+
+/* .btn_f>a{
+    color: black;
+} */
 
 /* .fleche_haut{
     position: fixed;
