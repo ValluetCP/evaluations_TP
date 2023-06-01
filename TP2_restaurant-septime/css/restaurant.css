@@ -151,6 +151,26 @@ section{
     align-items: center;
 }
 
+.marker1 {
+    position: absolute;
+    top: 550px;
+}
+
+.marker2 {
+    position: absolute;
+    top: 1065px;
+}
+
+.marker3 {
+    position: absolute;
+    top: 1600px;
+}
+
+.marker4 {
+    position: absolute;
+    top: 2120px;
+}
+
 .marges{
     margin: 30px;
 }
