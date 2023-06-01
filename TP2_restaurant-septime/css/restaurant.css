@@ -203,8 +203,29 @@ section>div{
 html {
     scroll-behavior: smooth;
   }
+  
 
-.fleche_haut{
+/* Flèche vers le haut */
+.btn_f{
+    height: 60px; 
+    width: 60px;
+    background: white;
+    border-radius: 50%;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 190px;
+    bottom: 32px;
+    cursor: pointer;
+ }
+
+ .icone{
+    width: 50%;
+}
+
+/* .fleche_haut{
     position: fixed;
     bottom: 100px;
     right: 200px;
@@ -212,7 +233,7 @@ html {
     border-radius: 50%;
     width: 50px;
     height: 50px;
-    /* padding-top: 5px; */
+    cursor: pointer;
 }
 
 .fleche_haut>a{
@@ -226,7 +247,7 @@ html {
 .icon{
     font-size: 40px;
     margin-top: 3px;
-}
+} */
 
 /* .ion-icon{
     width: 20px;
