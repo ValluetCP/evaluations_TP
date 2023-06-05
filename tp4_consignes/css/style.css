@@ -9,6 +9,16 @@ img{
     width: 100%;
 }
 
+            /* CORPS*/
+
+.container{
+    width: 1000px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+            /* HEADER - PARTIE 1 */
+
 header,
 .boutique,
 /* .besoin, */
@@ -82,3 +92,32 @@ h2{
     margin-right: 10px;
 }
 
+            /*  NAV  */
+
+nav{
+    margin-top: 15px;
+    background-color: #67dcff;
+    padding: 15px 0;
+    
+}
+
+
+
+ul{
+    list-style-type: none;
+    /* display: flex;
+    justify-content: space-around; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* ul div{
+    background-color: #67dcff;
+} */
