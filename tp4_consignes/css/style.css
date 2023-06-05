@@ -36,6 +36,10 @@ h1{
     color: #e024a8;
 }
 
+.logo{
+    margin: 0 30px 0 10px;
+}
+
             /* HEADER - PARTIE 2 */
 h2,
 .besoin p{
@@ -95,9 +99,7 @@ h2{
             /*  NAV  */
 
 nav{
-    margin-top: 15px;
-    background-color: #67dcff;
-    padding: 15px 0;
+    margin-top: 10px;
     
 }
 
@@ -121,3 +123,12 @@ a{
 /* ul div{
     background-color: #67dcff;
 } */
+
+ul>li:nth-child(1){
+    background-color: #e024a8;
+}
+
+ul>li{
+    background-color: #67dcff;
+    padding: 10px 0;
+}
