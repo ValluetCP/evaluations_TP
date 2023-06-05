@@ -1,0 +1,84 @@
+
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}html{box-sizing:border-box}*,::after,::before{box-sizing:inherit}img,video{width:100%;vertical-align:middle;}
+
+body{
+    background-color: #d9d9d9;
+}
+
+img{
+    width: 100%;
+}
+
+header,
+.boutique,
+/* .besoin, */
+.article{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    font-size: 45px;
+    padding-bottom: 5px;
+}
+
+.boutique p{
+    color: #e024a8;
+}
+
+            /* HEADER - PARTIE 2 */
+h2,
+.besoin p{
+    color: #67dcff;
+    text-align: center;
+}
+
+h2{
+    font-size: 30px;
+    padding-bottom: 3px;
+}
+
+.aide{
+    position: relative;
+}
+.aide>p{
+    position: absolute;
+    top: 5px;
+    left: 50px;
+}
+
+            /* HEADER - PARTIE 3 */
+
+/* .compte{
+    padding: 0 20px;
+} */
+
+.compte p{
+    color: white;
+}
+
+.compte>div:nth-child(1)>p{
+    text-align: center;
+}
+/* .compte>div:nth-child(1){
+    margin-bottom: 5px;
+} */
+
+.article{
+    margin-top: 3px;
+    align-items: center;
+    justify-content: space-between;
+}
+/* .article>p{
+    margin-top: 3px;
+} */
+
+.compte>div{
+    background-color: #67dcff;
+    padding: 0 40px 0 0;
+}
+
+.panier{
+    margin-right: 10px;
+}
+
