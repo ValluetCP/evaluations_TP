@@ -52,14 +52,28 @@ h2{
     padding-bottom: 3px;
 }
 
+.besoin>p{
+    color: rgb(191, 191, 191);
+}
+
 .aide{
     position: relative;
 }
 .aide>p{
     position: absolute;
-    top: 5px;
-    left: 50px;
+    top: 1px;
+    left: 45px;
 }
+
+.numero{
+    font-size: 20px;
+}
+
+.horaire{
+    font-size: 10px;
+    margin: 5px 0;
+}
+
 
             /* HEADER - PARTIE 3 */
 
@@ -98,10 +112,9 @@ h2{
 
             /*  NAV  */
 
-nav{
-    margin-top: 10px;
-    
-}
+/* nav{
+    margin-top: 10px;   
+} */
 
 
 
@@ -175,9 +188,15 @@ aside{
 
 .livraison{
     margin-bottom: 10px;
+    align-items: center;
 }
 
-            /* FOOTER */
+.echange{
+    align-items: center;
+}
+
+
+            /* *************** FOOTER ****************/
 
 .bas_page{
     list-style-type: none; 
