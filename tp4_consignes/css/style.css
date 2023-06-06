@@ -137,6 +137,46 @@ a{
     background-color: #32758a;
 }
 
+
+            /* SECTION - 2 */
+
+h3{
+    color: #67dcff;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.sect2,
+.livraison,
+.echange{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.carte{
+    width: 70%;
+    /* margin: auto; */
+    margin-top: 20px;
+}
+
+aside{
+    width: 100%;
+}
+
+.securite,
+.quiSommesNous,
+.services{
+    margin: 10px;
+}
+
+.icon_service{
+    margin-right: 20px;
+}
+
+.livraison{
+    margin-bottom: 10px;
+}
+
             /* FOOTER */
 
 .bas_page{
