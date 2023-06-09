@@ -195,6 +195,45 @@ aside{
     align-items: center;
 }
 
+            /* SECTION - 3 */
+
+.sect3{
+    display: flex;
+}
+
+.cellule{
+    width: 30%;
+}
+
+.cellule>div:nth-child(2){
+display: flex;
+}
+
+.bonPlan p{
+    text-align: center;
+    background-color: rgb(177, 177, 177);
+    padding: 10px 0;
+}
+
+.cellule a>p{
+    color: #67dcff;
+    text-align: right;;
+}
+.bonPlan2 img{
+    width: 50px;
+    margin: 0 5px;
+}
+
+.bonPlan2{
+    padding: 10px;
+}
+
+.text_bonPlan{
+    margin: 5px;
+}
+
+
+
 
             /* *************** FOOTER ****************/
 
