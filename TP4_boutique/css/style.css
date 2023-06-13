@@ -302,3 +302,22 @@ footer p:hover{
     color:  #e024a8;
     padding: 2px 0;
 }
+
+
+
+   /* *************** MEDIA QUERY ****************/
+
+@media(max-width : 1400px){
+    .container{
+        width: 100%;
+    }
+}
+
+@media(max-width : 800px){
+    .container{
+        width: 100%;
+        margin: auto;
+
+    }
+}
+
