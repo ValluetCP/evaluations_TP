@@ -192,7 +192,7 @@ h2{
     margin: auto;
     margin-bottom: 50px;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 115px;
 }
 
 .zone_2>p{
@@ -210,3 +210,72 @@ h2{
 .ul_liste_menu li{
     color: gray;
 }
+
+
+/* -------------------- SECTION 5 ------------------ */
+
+.sect5{
+    margin: 100px 0;
+}
+
+.prix_menu,
+.menu_aa,
+.menu_bb{
+    display: flex;
+}
+
+.prix_menu{
+    width: 80%;
+    margin: auto;
+}
+
+.prix_menu p{
+    color: white;
+}
+
+h4{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.txt_menu_b p,
+.txt_menu_b h4{
+    text-align: end;
+}
+
+.txt_menu_a p,
+.txt_menu_b p{
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.txt_menu_a,
+.txt_menu_b{
+    margin: 0 50px;
+    width: 60%;
+
+}
+
+.img_menu{
+    width: 40%;
+}
+
+.menu_haut{
+    margin-bottom: 50px;
+}
+
+.prix_menu .gold_color{
+    color: rgb(240, 183, 28);
+    text-align: start;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+/* -------------------- SECTION 6 ------------------ */
+/* -------------------- SECTION 7 ------------------ */
+
+.sect7{
+    background-image: url(../img/reservation.jpg);
+    height: 600px;
+}
+
