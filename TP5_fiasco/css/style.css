@@ -28,6 +28,12 @@ img{
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
+/* @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+
+
 .container{
     width: 1440px;
     margin: auto;
@@ -36,6 +42,19 @@ img{
 body{
     background-color: black;
     font-family: 'Roboto', sans-serif;
+}
+
+.gold_color{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+
+.txt_gold{
+    color:  rgb(240, 183, 28);
+}
+
+.welcome{
+    font-size: 40px;
 }
 
 /* Préparation : ul, a, li || les sections commentés */ 
@@ -69,6 +88,7 @@ header{
 
 .logo{
     color: white;
+    padding: 10px 5px;
 }
 
 .navigation{
@@ -83,6 +103,13 @@ header{
 
 .navigation li{
     margin: 0 10px;
+    padding: 10px 5px;
+}
+
+.gold_case{
+    border: 1px solid rgb(240, 183, 28);
+    padding: 10px 0;
+
 }
 
 /* -------------------- TEXTE HEADER ------------------ */
@@ -92,7 +119,7 @@ header{
     margin: auto;
     text-align: center;
     color: white;
-    translate: 0 50%;
+    translate: 0 20%;
 }
 
 .text_header>h1{
@@ -102,6 +129,10 @@ header{
 
 .text_header>p{
     padding: 30px 0;
+}
+
+.ss_titre{
+    font-size: 20px;
 }
 
 /* *************************** MAIN *************************** */
@@ -274,8 +305,52 @@ h4{
 /* -------------------- SECTION 6 ------------------ */
 /* -------------------- SECTION 7 ------------------ */
 
+.sect7>div{
+    height: auto;
+}
+
 .sect7{
     background-image: url(../img/reservation.jpg);
     height: 600px;
+    color: white;
+    display: flex;
+    align-items: center;
 }
 
+.sect7>div{
+    width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+.provisoir{
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+    margin: 30px auto;
+}
+
+.provisoir p{
+    padding: 10px 20px;
+    border: 1px solid white ;
+    border-radius: 10px;
+}
+
+.bouton_gold>a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(240, 183, 28);
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.bouton_gold{
+   margin-top: 80px; 
+}
+
+/* -------------------- SECTION 8 ------------------ */
+
+.sect8{
+    text-align: end;
+    margin-top: 50px;
+}
