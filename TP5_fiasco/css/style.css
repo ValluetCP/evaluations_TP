@@ -65,12 +65,17 @@ body{
 header{
     background-image: url(../img/eggs.jpg);
     height: 612px;
+    /* opacity: 0.1; */
     
     /* background-color: black; */
     /* background: black url(../img/eggs.jpg); */
     /* width : 1440px; height : 612px; color : #fff; */
     
 }
+
+/* .img_header{
+    background-color: black;
+} */
 
 /* -------------------- NAVIGATION ------------------ */
 
@@ -375,11 +380,11 @@ h4{
 
 /* -------------------- SECTION 10 ------------------ */
 
-.sect10{
+/* .sect10{
     background-image: url(../img/splash.png);
     background-repeat: no-repeat;
     background-position-x: right;
-    background-position-y: -10;
+    background-position-y: bottom;
     min-height: 337px;
     color: white;
     background-color: rgb(83, 83, 83);
@@ -410,12 +415,49 @@ h5{
 .zone_txt p{
     font-size: 12px;
     font-weight: 200;
-}
+} */
 
-.copy{
+/* .copy{
     font-size: 12px;
     font-weight: 200;
     background-color: rgb(83, 83, 83);
     padding-bottom: 20px;
     padding-left: 60px;
+} */
+
+/* -------------------- SECTION 10 Bis------------------ */
+
+footer{
+    background-image: url(../img/splash.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    min-height: 337px;
+    color: white;
+    padding-top: 80px;
+    
+    
+}
+
+.s10{
+    display: flex;
+    justify-content: space-around;
+}
+
+h5{
+    font-size: 30px;
+    margin-bottom: 70px;
+    font-weight: 300;
+}
+
+.zone_txt p{
+    font-size: 12px;
+    font-weight: 200;
+    width: 350px;
+}
+
+.copy{
+    font-size: 12px;
+    font-weight: 200;
+    padding-left: 64px;
+    margin-top: 60px;
 }
