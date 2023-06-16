@@ -35,7 +35,7 @@ img{
 
 
 .container{
-    width: 1440px;
+    max-width: 1440px;
     margin: auto;
 }
 
@@ -96,6 +96,15 @@ header{
     padding: 10px 5px;
 }
 
+.logo>a{
+    color: white;
+    text-decoration: none;
+}
+
+.logo>a:hover{
+    color: rgb(240, 183, 28);
+}
+
 .navigation{
     color: white;
     list-style-type: none;
@@ -104,6 +113,10 @@ header{
 .navigation a{
     color: white;
     text-decoration: none;
+}
+
+.navigation a:hover{
+    color: rgb(240, 183, 28);
 }
 
 .navigation li{
@@ -140,7 +153,13 @@ header{
     font-size: 20px;
 }
 
-/* *************************** MAIN *************************** */
+/* ********************* Header Bis ********************* */
+
+/* .img_header{
+    position: relative;
+} */
+
+/* ********************* MAIN ********************* */
 
 /* -------------------- SECTION 1 ------------------ */
 
@@ -154,7 +173,7 @@ h2{
 }
 
 .zone_1{
-    width: 60%;
+    width: 950px;
     margin: auto;
     margin-bottom: 50px;
 }
@@ -184,6 +203,7 @@ h2{
 .txt_zone_1{
     color: white;
     /* padding-right: 20px; */
+    margin-left: 80px;
 }
 
 .txt_zone_1>p{
@@ -206,6 +226,21 @@ h2{
 
 
 /* -------------------- SECTION 2 ------------------ */
+
+/* .txt_zone_2{
+    margin-right: 80px;
+    margin-left: 0;
+} */
+
+.txt_zone_2{
+    color: white;
+    margin-right: 80px;
+}
+
+.txt_zone_2>p{
+    font-weight: 200;
+    margin: 20px 0;
+}
 
 .gold_border2{
     border: 1px solid rgb(240, 183, 28);
@@ -261,7 +296,7 @@ h2{
 }
 
 .prix_menu{
-    width: 80%;
+    width: 1000px;
     margin: auto;
 }
 
@@ -285,10 +320,11 @@ h4{
     font-size: 15px;
 }
 
+
 .txt_menu_a,
 .txt_menu_b{
     margin: 0 50px;
-    width: 60%;
+    width: 280px;
 
 }
 
@@ -303,8 +339,8 @@ h4{
 .prix_menu .gold_color{
     color: rgb(240, 183, 28);
     text-align: start;
-    margin-top: 30px;
-    font-size: 25px;
+    margin-top: 15px;
+    font-size: 20px;
 }
 
 /* -------------------- SECTION 6 ------------------ */
@@ -349,8 +385,43 @@ h4{
     border-radius: 10px;
 }
 
+.bouton_gold>a:hover{
+    background-color: rgb(131, 100, 16);
+}
+
 .bouton_gold{
    margin-top: 80px; 
+}
+
+/* #person-select[type="date"]::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 2px;
+    opacity: 0.6;
+    filter: invert(0.8);
+  } */
+#person-select{
+background: none;
+padding: 10px 20px;
+border: 1px solid white ;
+border-radius: 10px;
+color: white;
+}
+
+option{
+    color: black;
+}
+
+input{
+    background-color: transparent;
+    padding: 10px 20px;
+    border: 1px solid white ;
+    border-radius: 10px;
+    color: white;
+}
+
+#start{
+    color: white;
 }
 
 /* -------------------- SECTION 8 ------------------ */
@@ -431,9 +502,12 @@ footer{
     background-image: url(../img/splash.png);
     background-repeat: no-repeat;
     background-position-x: right;
+    background-color: rgb(83, 83, 83);
     min-height: 337px;
     color: white;
     padding-top: 80px;
+    margin-top: -4px;
+    /* padding: 80px 35px 80px; */
     
     
 }
@@ -455,9 +529,40 @@ h5{
     width: 350px;
 }
 
+/* .zone_txt{
+    margin: 0 70px;
+} */
+
 .copy{
     font-size: 12px;
     font-weight: 200;
     padding-left: 64px;
     margin-top: 60px;
+}
+
+/* -------------------- MEDIAQUERY 1200px------------------ */
+
+@media(max-width:1200px){
+    
+    .zone_1 {
+        width: 700px;
+    }
+
+    .zone_txt p {
+        width: 270px;
+    }
+
+    .copy{
+        padding-left: 46px;
+    }
+}
+
+
+/* -------------------- MEDIAQUERY 1060px------------------ */
+
+@media(max-width:1060px){
+    
+    /* .zone_1 {
+        width: 700px;
+    } */
 }

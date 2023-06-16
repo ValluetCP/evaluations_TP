@@ -17,8 +17,8 @@
 </head>
 <body>
     <div class="container">
-        <header class="img_header">
-            <!-- <div><img src="./img/eggs.jpg" alt="oeufs"></div> -->
+        <!-- -------------------- Header Bis------------------ -->
+        <!-- <header class="img_header">
             <div class="barre_navigation">
                 <div class="logo">THE FIASCO</div>
                 <nav>
@@ -28,7 +28,6 @@
                         <li><a href="">RECIPES</a></li>
                         <li><a href="">CONTACT</a></li>
                         <li class="gold_case"><a href="">MAKE RESERVATION</a></li>
-                        <!-- <li class="gold_case"><a href="">MAKE RESERVATION</a></li> -->
                     </ul>
                 </nav>
             </div>
@@ -37,8 +36,32 @@
                 <h1>THE FIASCO</h1>
                 <p class="ss_titre">MEDITERRANEAN SPECIALITIES</p>
             </div>
-        </header>
+        </header> -->
+
+        <!-- -------------------- Header ------------------ -->
+        <header class="img_header">
+                    <div class="barre_navigation">
+                        <div class="logo"><a href="">THE FIASCO</a></div>
+                        <nav>
+                            <ul class="navigation">
+                                <li><a href="">ABOUT FIASCO'S</a></li>
+                                <li><a href="">MENU</a></li>
+                                <li><a href="">RECIPES</a></li>
+                                <li><a href="">CONTACT</a></li>
+                                <li class="gold_case"><a href="">MAKE RESERVATION</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="text_header">
+                        <p class="gold_color welcome">Welcome</p>
+                        <h1>THE FIASCO</h1>
+                        <p class="ss_titre">MEDITERRANEAN SPECIALITIES</p>
+                    </div>
+                </header>
+
+        <!-- -------------------- Main------------------ -->
         <main>
+            <!-------------------- SECTION 1 -------------------->
             <section class="zone_1">
                 <div class="discover">
                     <div>
@@ -52,12 +75,13 @@
                     </div>
                 </div>
             </section>
+            <!-------------------- SECTION 2 -------------------->
             <section class="zone_1">
                 <div class="discover f_direction">
                     <div>
                         <div class="gold_border2"><img src="./img/crusted-chicken.jpg" alt=""></div>
                     </div>
-                    <div class="txt_zone_1">
+                    <div class="txt_zone_2">
                         <h3 class="gold_color">Tasteful</h3>
                         <h2>RECIPES MADE WITH LOVE</h2>
                         <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum totam dolor repudiandae voluptate culpa quod tempora deleniti, aperiam, necessitatibus animi eligendi dolorem quae esse! Alias quo error recusandae sapiente quis.</P>
@@ -65,6 +89,7 @@
                     </div>
                 </div>
             </section>
+            <!-------------------- SECTION 3 -------------------->
             <section  class="zone_2">
                 <h3 class="gold_color">Menu</h3>
                 <h2>CERTIFIED BIO</h2>
@@ -149,9 +174,20 @@
                     </div>
                     <div class="provisoir">
                         <p>FULL NAME (FOCUS)</p>
+                        <select name="person" id="person-select">
+                            <option value="">FOR 2 PERSONS</option>
+                            <option value="dog">FOR 3 PERSONS</option>
+                            <option value="cat">FOR A GROUP</option>
+                        </select>
+                        <input type="date" id="start" name="trip-start"
+                        value="2020-07-09"
+                        min="2020-01-01" max="2020-12-31">
+                    </div>
+                    <!-- <div class="provisoir">
+                        <p>FULL NAME (FOCUS)</p>
                         <p>FOR 2 PERSONS</p>
                         <p>09/07/2020</p>
-                    </div>
+                    </div> -->
                     <div class="bouton_gold"><a href="">RESERVE TABLE</a></div>
                 </div>
             </section>
@@ -237,7 +273,6 @@
                 </div>
                 <p class="copy">2018 THE FIASCO All rights reserved</p>
             </footer>
- 
         </main>
     </div>
 </body>
