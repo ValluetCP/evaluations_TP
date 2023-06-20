@@ -28,6 +28,14 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+h3{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
 /* HEADER */
 
 header{
@@ -82,6 +90,13 @@ figcaption>p{
 
 .fig_violet{
     color: white;
+    justify-content: center;
+    background-color: #c3fffe;
+}
+
+section{
+    margin-top: 40px;
+    margin-bottom: 50px;
 }
 
 figcaption{
@@ -97,6 +112,7 @@ figcaption{
 figure{
     width: 300px;
     position: relative;
+    margin: 20px;
 }
 
 /* .fig_date,
@@ -153,6 +169,11 @@ figcaption{
 .bouton{
     justify-content: space-between;
     margin-top: 20px;
+}
+
+.prix{
+    background-color: #ffc665;
+    /* #eeae40 */
 }
 
 @media(max-width: 1440px){
