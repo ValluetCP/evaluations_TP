@@ -276,6 +276,41 @@ figcaption{
     text-transform: uppercase;
 }
 
+.coeur{
+    position: relative;
+}
+
+.coeur>div{
+    position: absolute;
+    z-index: 3;
+    right: -10px;
+    top: 10px;
+    width: 15px;
+}
+
+.coeur_color{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coeur_color:nth-child(1){
+    width: 20px;
+}
+/* .coeur:nth-child(1){
+    position: absolute;
+    z-index: 3;
+    right: -5px;
+    top: 6%;
+    width: 10px;
+} */
+
+
+
+.coeur_color{
+    background-color: white;
+}
+
 
 /* //////////////////// FOOTER ////////////////// */
 
