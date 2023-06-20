@@ -77,8 +77,23 @@ header{
     height: 100%;
 }
 
-/* //////////////////// FIGURE ////////////////// */
 
+/* //////////////////// SECTION 1 - FIGURE - VENTE ////////////////// */
+
+.sect1{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sect1 figure img{
+    width: 300px;
+    height: 400px;
+    /* margin: 20px; */
+}
+
+.sect1 figure{
+    justify-content: center;
+}
 h2{
     font-size: 16px;
 }
@@ -186,7 +201,11 @@ figcaption{
 .sect3 figure img{
     width: 300px;
     height: 400px;
-    margin: 20px;
+    /* margin: 20px; */
+}
+
+.sect3 figure{
+    justify-content: center;
 }
 
 /* .wrap{
@@ -217,7 +236,7 @@ figcaption{
 
 .enfant{
     position: absolute; 
-    bottom: 21%;
+    bottom: 23%;
     left: 0px;
     font-size: 13px;
 }
@@ -258,6 +277,14 @@ figcaption{
 }
 
 
+/* //////////////////// FOOTER ////////////////// */
+
+footer{
+    height: 40px;
+    background-color: #ffc665; 
+}
+
+
 @media(max-width: 1440px){
     .container{
         width: 100%;
@@ -279,6 +306,28 @@ figcaption{
         margin: 5px;
         
     }
+
+    /* ///////// SECTION 2 /////////  */
+    .sect1 figure{
+        margin: 20px;
+    }
+    
+    .sect1 figure img{
+        width: 300px;
+        height: 400px;   
+    }
+
+
+
+    /* ///////// SECTION 3 /////////  */
+    .sect3 figure{
+        margin: 20px;
+    }
+    
+    .sect3 figure img{
+        width: 300px;
+        height: 400px;   
+    }
 }
 
 @media(max-width: 760px){
@@ -286,8 +335,23 @@ figcaption{
     .bel_img>div{
         width: 400px;
         height: 500px;
-        /* height: 300px;
-        margin: 5px; */
-        
+    }
+    
+    /* ///////// SECTION 3 /////////  */
+
+figure{
+    margin-bottom: 50px;
+}
+
+    /* .sect3 figure img{
+        width: 500px;
+        height: 600px;
+        width: 100%;
+    
+
+    } */
+
+    .sect3 figure{
+        margin-bottom: 50px;
     }
 }
