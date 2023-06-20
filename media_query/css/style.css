@@ -31,7 +31,7 @@ body{
 h3{
     text-transform: uppercase;
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
     margin-top: 100px;
     margin-bottom: 50px;
 }
@@ -171,10 +171,92 @@ figcaption{
     margin-top: 20px;
 }
 
-.prix{
+/* .prix{
     background-color: #ffc665;
-    /* #eeae40 */
+    #eeae40
+} */
+
+/* //////////////////// SECTION 3 - FIGURE - VENTE ////////////////// */
+
+.sect3{
+    justify-content: center;
+    flex-wrap: wrap;
 }
+
+.sect3 figure img{
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+}
+
+/* .wrap{
+    flex-wrap: wrap;
+} */
+
+.promo,
+.voyage{
+    padding: 5px 10px;
+}
+
+.promo{
+    background-color: #ffc665; 
+}
+
+.voyage{
+    background-color: white;
+    margin-left: 5px;
+}
+
+/* .absolu{
+    position: absolute;
+} */
+
+.img_prix{
+    position: relative;
+}
+
+.enfant{
+    position: absolute; 
+    bottom: 21%;
+    left: 0px;
+    font-size: 13px;
+}
+
+.sponsor{
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.sponsor>p{
+    margin-left: 5px;
+}
+
+.red{
+    color: #ec990a;
+    font-weight: 600;
+}
+
+.origine{
+    margin-top: 0;
+    font-size: 13px;
+}
+
+.barre{
+    text-decoration : line-through;
+}
+
+.red2{
+    color: #ec990a;
+}
+
+.fig_sect2{
+    padding: 0;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
 
 @media(max-width: 1440px){
     .container{
