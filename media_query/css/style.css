@@ -94,6 +94,12 @@ header{
 .sect1 figure{
     justify-content: center;
 }
+
+.img_2{
+    display: none;
+}
+
+
 h2{
     font-size: 16px;
 }
@@ -342,7 +348,7 @@ footer{
         
     }
 
-    /* ///////// SECTION 2 /////////  */
+    /* ///////// SECTION 1 /////////  */
     .sect1 figure{
         margin: 20px;
     }
@@ -350,6 +356,14 @@ footer{
     .sect1 figure img{
         width: 300px;
         height: 400px;   
+    }
+
+    .img_1{
+        display: none;
+    }
+
+    .img_2{
+        display: block;
     }
 
 
