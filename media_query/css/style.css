@@ -36,7 +36,7 @@ h3{
     margin-bottom: 50px;
 }
 
-/* HEADER */
+/* ///////////////// HEADER ///////////////// */
 
 header{
     background-image: url(../img/cake_header.jpg);
@@ -321,14 +321,30 @@ figcaption{
 /* //////////////////// FOOTER ////////////////// */
 
 footer{
-    height: 40px;
+    /* height: 20px; */
     background-color: #ffc665; 
 }
+
+footer p {
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    padding: 20px;
+
+}
+
 
 
 @media(max-width: 1440px){
     .container{
         width: 100%;
+    }
+
+    /* //////// HEADER //////// */
+
+header{
+    background-image: url(../img/cake_header2.jpg);
+
     }
 }
 
