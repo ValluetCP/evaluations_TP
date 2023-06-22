@@ -19,7 +19,7 @@ header{
 
 nav{
     background-color: rgba(0, 0, 0, 0.515);
-    padding: 10px 0; 
+    padding: 20px 0; 
     z-index: 3;
     position: fixed;
     top: 0;
@@ -46,8 +46,13 @@ nav{
     border: 1px solid white;
 }
 
+.lien_ul li:active{
+    border: 1px solid #8DAE4F;
+    
+}
+
 .grey{
-    color: grey;
+    color: rgb(97, 97, 97);
 }
 
 .billetterie{
@@ -112,13 +117,28 @@ h2{
 
 figcaption p{
     margin-top: 20px;
+    line-height: 25px;
 }
 
 strong{
     font-weight: 700;
 }
 
-/*      SECTION 2   */
+
+.jurassic{
+    overflow: hidden;
+}
+
+.jurassic>img{
+    transition: transform .1s;
+}
+
+.jurassic>img:hover{
+   transform: scale(1.2);
+}
+
+
+            /*      SECTION 2   */
 
 .sect2{
     text-align: center;
@@ -126,6 +146,7 @@ strong{
     margin-top: 50px;
     margin-bottom: 50px;
     font-weight: 600;
+    line-height: 25px;
 }
 
 /* .bouton a{
@@ -140,28 +161,50 @@ strong{
     margin-bottom: 30px;
 }
 
-/*      SECTION 3   */
+.btn p{
+    margin: auto;
+    margin-top: 30px;
+    line-height: 25px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+
+            /*      SECTION 3       */
 
 .sect3{
     width: 1000px;
     margin: auto;
+    margin-top: 100px;
+}
+
+.sect3 p{
+    margin-bottom: 30px;
+    line-height: 25px;
+    font-size: 14px;
 }
 
 .sect3a,
 .sect3b{
-    width: 50%;
+    width: 450px;
 }
 
 .flexy{
     display: flex;
+    justify-content: space-between;
 }
 
 h3{
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 500;
-    margin-right: 10px;
     margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+h3 :nth-child(1){
+    margin-right: 10px;
 }
 
 /* .fa-regular{
@@ -169,11 +212,105 @@ h3{
     margin-bottom: 20px;
 } */
 
+.sect3b img{
+    width: 50px;
+    margin: 0 5px;
+}
+
+
+
+.bouton2{
+    text-decoration: none;
+    color: white;
+}
+
+
+.bouton2 p{
+    background-color: #1C5F81;
+    padding: 10px;
+    width: 225px;
+    text-align: center;
+    margin-bottom: 100px;
+    text-transform: uppercase;
+}
+
+.bouton2:hover{
+    color: #1C5F81;
+}
+
+.bouton2:hover p{
+    background-color: white;
+    border: 1px solid #1C5F81;
+}
+
+
+            /*      SECTION 4       */
+
+
+.sect4{
+    width: 1000px;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 80px;
+}
+
+.sect4>div img{
+    width: 80px;
+}
+
+.partenaires {
+    margin-top: 50px;
+}
+
+
+            /*      FOOTER      */
+
+footer{
+    background-color: black;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.lien_footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.lien_footer a:hover{
+    color: #8DAE4F;
+}
+
+/* .lien_footer{
+    width: 1000px;
+} */
+
+.lien_footer>ul>li{
+    margin-bottom: 5px;
+}
+
+.container_ftr{
+    width: 1000px;
+    margin: auto;
+    align-items: center;
+}
+
+.logo_dino_ftr{
+    width: 300px;
+}
+
+
 /*      media query   */
+
+@media (max-width: 1400px){
+    
+}
+
 
 @media (max-width: 960px){
     
 }
+
+
 @media (max-width: 760px){
 
 }
