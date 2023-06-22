@@ -95,6 +95,6 @@ Cité du cinéma
 93200 Saint-Denis
 En Métro: metro ligne 13 (carrefour Pleyel)
 En Bus: Ligne 139 (carrefour Pleyel)
-En Voiture:VIA L4AUTOROUTE A1 'sortie 2 vers Saint-Denis/La plaine/Saint-Denis-Centre) ou via l'autoroute A86 (sortie 8a vers Saint Ouen/Paris-Porte de Clignancourt/Saint-Denis-Pleyel) 
+En Voiture:VIA L4AUTOROUTE A1 (sortie 2 vers Saint-Denis/La plaine/Saint-Denis-Centre) ou via l'autoroute A86 (sortie 8a vers Saint Ouen/Paris-Porte de Clignancourt/Saint-Denis-Pleyel) 
 ## ALLEZ, ON RESPIRE BIEN UNE FOIS ...
 ## ... & BON COURAGE A CHACUN !
