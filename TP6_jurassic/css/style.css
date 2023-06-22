@@ -12,10 +12,16 @@ header{
 
                         /* HEADER */
 
-/* header{
+header{
     background-image: url(../img/dinosaure.jpg);
+    /* background-repeat: no-repeat;
+    width: 1440px;
+    height: 1000px; */
+    background-position: center;
     background-repeat: no-repeat;
-} */
+    background-size: cover;
+    height: 935px;
+}
 
 nav{
     background-color: rgba(0, 0, 0, 0.515);
@@ -80,20 +86,30 @@ nav{
     position: relative;
 }
 
-.img_logo_header{
-    width: 800px;
-}
+/* .img_logo_header{
+    width: 700px;
+    margin: auto;
+} */
 
 .logo_header{
-    transform: translate(70%,-140%);
-    position: absolute;
+    z-index: 3;
+    width: 650px;
+    margin: auto;
+    padding-top: 150px;
+    /* display: flex;
+    align-items: center; */
 }
 
-.clim{
+/* .logo_header{
+    transform: translate(70%,-140%);
+    position: absolute;
+} */
+
+.clim>img{
     width: 300px;
     position: absolute;
-    right: 0;
-    bottom: 0px;
+    right: 0px;
+    bottom: -10px;
 }
 
 
@@ -248,7 +264,6 @@ h3 :nth-child(1){
 
 
 .sect4{
-    width: 1000px;
     margin: auto;
     margin-top: 150px;
     margin-bottom: 80px;
@@ -260,6 +275,13 @@ h3 :nth-child(1){
 
 .partenaires {
     margin-top: 50px;
+    width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.sect4 h2{
+    margin-bottom: 100px;
 }
 
 
@@ -269,6 +291,8 @@ footer{
     background-color: black;
     padding-top: 100px;
     padding-bottom: 50px;
+    /* width: 100%; */
+    /* padding: 100px 50px 50px 50px; */
 }
 
 .lien_footer a{
@@ -301,16 +325,92 @@ footer{
 
 /*      media query   */
 
-@media (max-width: 1400px){
+@media (max-width: 1250px){
+
+    /* .clim{
+        bottom: -47%;
+    } */
+
+    .lien_ul li{
+        padding: 10px 20px;
+        margin: 0 10px;
+        font-size: 13px;
+    }
+
+    .sect3{
+        display: block;
+        width: 450px;
+        margin: auto;
+    }
+
+
+            /*      SECTION 4 - 1250px       */  
+
+    .partenaires {
+        width: 800px;
+    }
+
+
+                /*      FOOTER - 1250px     */
+    .container_ftr{
+        width: 800px;
+    }
     
 }
 
 
 @media (max-width: 960px){
+
+    header {
+        height: 750px;
+    }
     
+    .clim{
+        display: none;
+    }
+
+    .sect1,
+    .sect2 {
+        width: 700px;
+    }
+
+    .sect2{
+        margin: auto;
+    }
+
+    .logo_header {
+        width: 500px;
+    }
+
+             /*      SECTION 4 - 960px       */  
+
+    .partenaires {
+        width: 500px;
+    }
+
+               /*      FOOTER - 960px     */
+    .container_ftr{
+        width: 500px;
+    }
+
+    .logo_dino_ftr{
+        width: 200px;
+    }
+
+    .lien_footer a{
+        font-size: 13px;
+    }
+        
 }
 
 
 @media (max-width: 760px){
 
+
+    .sect1,
+    .sect2 {
+        width: 500px;
+    }
+
+    
 }
