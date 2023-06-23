@@ -10,6 +10,8 @@ header{
     text-transform: uppercase;
 }
 
+
+
                         /* HEADER */
 
 header{
@@ -49,7 +51,7 @@ nav{
 }
 
 .lien_ul li:hover{
-    border: 1px solid white;
+    border-top: 1px solid white;
 }
 
 .lien_ul li:active{
@@ -57,8 +59,16 @@ nav{
     
 }
 
+.menu{
+    display: none;
+}
+
 .grey{
-    color: rgb(97, 97, 97);
+    color: rgb(59, 59, 59);
+}
+
+.grey:hover{
+    color: #8DAE4F
 }
 
 .billetterie{
@@ -406,10 +416,35 @@ footer{
 
 @media (max-width: 760px){
 
+    .menu{
+        display: block;
+        color: white;
+    }
+
+    .menu :hover{
+        color: #8DAE4F;
+    }
+
+    /* .menu .fa-solid{
+        width: 20px;
+    } */
+
+    .lien_ul {
+        justify-content: space-around;
+    }
 
     .sect1,
     .sect2 {
         width: 500px;
+    }
+
+    .visible{
+        display: none;
+    }
+
+    .langue,
+    .billetterie{
+        display: block;
     }
 
     
