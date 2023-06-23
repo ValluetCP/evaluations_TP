@@ -243,7 +243,9 @@ h3 :nth-child(1){
     margin: 0 5px;
 }
 
-
+.iframe{
+    display: block;
+}
 
 .bouton2{
     text-decoration: none;
@@ -333,6 +335,8 @@ footer{
 }
 
 
+
+
 /*      media query   */
 
 @media (max-width: 1250px){
@@ -379,9 +383,14 @@ footer{
         display: none;
     }
 
-    .sect1,
+    /* .sect1,
     .sect2 {
         width: 700px;
+    } */
+
+    .sect3a,
+    .sect3b {
+        width: 100%;
     }
 
     .sect2{
@@ -447,5 +456,55 @@ footer{
         display: block;
     }
 
+    .iframe{
+        width: 100%;
+    }
+
     
+}
+
+
+@media (max-width: 530px){
+    .logo_header {
+        width: 250px;
+    }
+
+    header {
+        height: 500px;
+        width: 100%;
+    }
+
+    .logo_header{
+        padding-top: 100px;
+    }
+
+    /* .sect1 {
+        padding: 0 20px;
+    } */
+
+    .container_ftr {
+        display: block;
+        width: 225px;
+        margin: auto;
+    }
+
+    .sect1,
+    .sect2,
+    .sect3,
+    .sect4 {
+        width: 100%;
+        padding: 0 20px;
+    }
+    
+
+    .partenaires {
+        width: 100%;
+    }
+    
+    
+    .logo_dino_ftr{
+        width: 200px;
+    }
+
+
 }
