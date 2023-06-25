@@ -146,6 +146,31 @@ iframe, img{
     background-color: #fff;
 } */
 
+.container{
+    width: 1400px;
+    margin: auto;
+}
+
+.flexy{
+    display: flex;
+}
+
+.ul_reset{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.ul_reset a{
+    text-decoration: none;
+    color: black;
+}
+
+.a_reset{
+    text-decoration: none;
+    color: black;
+}
+
 /* ------------------- Fin RESET ------------------- */
 
 /* //////// FONT //////// */
