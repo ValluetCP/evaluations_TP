@@ -1,0 +1,13 @@
+Coucou Oliver,
+
+J'espère que tu vas bien et que tu profites de ton weekend!
+Je voulais te faire un petit récap de ce que l'on a vu vendredi des choses importantes concernant notre évaluation notamment avec bootstrap.
+Si ça n'a pas déjà été fait par qqln d'autre, je voulais te mettre à jour pour que tu puisses avoir le même niveau d'informations que nous.
+Si ça t'intéresse bien entendu !
+
+Je sais que tu étais là au début du cours mais j'ignore ce que tu as loupé ou non. Donc tu prendras les infos qui t'intéresses.
+
+1/ Pour le header, apparemment ce sera un caroussel (que tu seras libre de faire avec ce que tu veux bootstrap, jQuery...)
+avec un formulaire qui viendra par dessus comme l'image ci-dessous.
+
+2/ pour le reste du site, on sera plutôt sur le même style de mise en page que l'image ci-dessous (que l'on connaît bien à force lol).

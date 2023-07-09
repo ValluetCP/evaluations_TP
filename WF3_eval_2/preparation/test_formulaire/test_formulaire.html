@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test_formulaire.css">
+    <title>test formulaire</title>
+</head>
+<body>
+    <header></header>
+    <main>
+        <section>
+            <!-- je déclare mon formulaire avec la balise form -->
+
+            <!--Method : maniéres de circulation des données-->
+            <!--Action : url de destination-->
+            <!--Action : permet d'envoyé un fichier correctement ( encodage)-->
+            <!-- <form method="post" action="url de destination" enctype="multipart/form-data"> -->
+
+
+            <form action="" method="post">
+                <label for="pseudo">Pseudo<span title="Votre identifiant">*</span></label>
+                <input type="text" id="pseudo" name="pseudo" required><br>
+                <!-- required : champs obligatoire -->
+
+                <label for="prenom">Prénom</label>
+                <input type="text" name="prenom" id="prenom" placeholder="Tapez votre prénom"><br>
+
+                <label for="password">Mot de passe</label>
+                <input type="password" name="password" id="password"><br>
+                <!-- Dans type je met password pour que ca ne m'affiche pas le mot de passe -->
+                        <!-- J'ajoute dans for password pour quand je click sur le label, il sélectionne le input concerné -->
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email"><br>
+
+                <label for="cv">CV</label>
+                <input type="file" name="cv" id="cv"><br>
+                <!-- Dans le type je met file pour lafficher en tant que "Bouton"  et choisir un fichier-->
+
+                <p>Quels sont vos fruits préférés?</p>
+                <label for="orange">Orange</label>
+                <input type="checkbox" name="orange" id="orange" value="orange">
+                <label for="fraise">Fraise</label>
+                <input type="checkbox" name="fraise" id="fraise" value="fraise">
+                <label for="poire">Poire</label>
+                <input type="checkbox" name="poire" id="poire" value="poire">
+                
+                <p>Quel est ton légume préféré?</p>
+                <label for="aubergine">Aubergine</label>
+                <input type="radio" name="legume" id="aubergine" value="aubergine">
+                
+                <label for="tomate">Tomate</label>
+                <input type="radio" name="legume" id="tomate" value="tomate">
+                
+                <label for="asperge">Asperge</label>
+                <input type="radio" name="legume" id="asperge" value="asperge">
+
+                <label for="message">message</label>
+                <textarea name="" id="" cols="45" rows="5"></textarea><br>
+
+                <input type="submit" name="envoyer" id="envoyer" value="Envoyer">
+                <input type="reset" name="annuler" id="annuler" value="Annuler">
+                <!-- Toujours renseigner :  type et value -->
+
+
+                <button type="button">Annuler</button>
+                <!-- dans type button pout annuler -->
+
+                <!-- <label for="prenom">Prénom</label>
+                <input type="text" id="prenom" placeholder="Tapez votre prénom" required name="prenom"> -->
+            </form>
+        </section>
+        <section></section>
+        <section></section>
+    </main>
+    <footer></footer>
+</body>
+</html>

@@ -1,0 +1,30 @@
+.navbar-brand{
+    color: white;
+    font-family: dosis;
+}
+
+.nav-link{
+    color: orange;
+}
+
+.chevron{
+    display: block;
+}
+
+h5{
+    font-family: dosis;  
+}
+
+.card-text{
+    font-size: 11px;
+    padding: 0px;
+}
+
+.card{
+    border: 0px;
+}
+
+.txt-1{
+    font-size: 15px; 
+}
+
