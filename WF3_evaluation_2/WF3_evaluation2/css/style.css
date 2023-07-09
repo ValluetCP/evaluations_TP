@@ -45,9 +45,38 @@ iframe, img{
 /* /////////////////////////// CODE /////////////////////////// */
 
 
+/* Formulaire */
+
+
+/* Deuxième partie */
+
+.picture2 {
+    display: none;
+}
+.card:hover .picture1 {
+    display: none;
+}
+.card:hover .picture2 {
+    display: block;
+}
 
 
 /******************* HEADER *******************/
+/* Position */
+
+.formulaire {
+    bottom: 20px;
+    left: 20%;
+  }
+
+/* Formulaire */
+select,
+input{
+    border: 1px solid rgb(6, 170, 121);
+    border-radius: 10px;
+    height: 40px;
+
+}
 
 /*  --------------- Fin HEADER --------------- */
 
