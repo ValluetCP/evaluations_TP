@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <!-- https://sharemycode.fr/jvi -->
+    <!-- https://www.geeksforgeeks.org/css-to-put-icon-inside-an-input-element-in-a-form/ -->
+    <style>
+      .fa-calendar {
+        position: absolute;
+        top: 3px;
+        right: 3px;
+      }
+      #defaultDate{
+        width: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="input-with-icon" style="position: relative; width:300px;">
+      <i class="fa-regular fa-calendar"></i>
+      <input type="text" id="defaultDate" placeholder="Sélectionner une date" />
+    </div>
+    <script>
+      $(document).ready(function () {
+        $("#defaultDate").datepicker();
+      });
+    </script>
+  </body>
+</html>
