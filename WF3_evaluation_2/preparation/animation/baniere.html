@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script>
+    <title>Document</title>
+    <style>
+        #banner{
+            width: 100%;
+            height: 700px;
+            background-image: url("img/panda1.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    </style>
+</head>
+<body>
+    <header id="banner">
+        
+    </header>
+
+    <script>
+        let images = [
+            // "panda1.jpg", // (version1)
+            // "panda2.jpg",
+
+            "img/panda1.jpg", // (version2)
+            "img/panda2.jpg",
+        ];
+
+        let curentIndex = 0;
+
+        // JS
+        setInterval(() => {
+            // document.getElementById("banner").style.backgroundImage = "url(imgs/panda1.jpg)"; // chemin traditionnel
+            curentIndex++;
+            if(curentIndex == images.length){
+                curentIndex = 0;
+            }
+            // document.getElementById("banner").style.backgroundImage = "url(imgs/"+images[curentIndex]+")";  (version1)
+
+            document.getElementById("banner").style.backgroundImage = "url("+images[curentIndex]+")";  // (version2)
+            
+        }, 2000);
+
+
+        // // jquery
+        // setInterval(() => {
+        //     curentIndex++;
+        //     if(curentIndex == images.length){
+        //         curentIndex = 0;
+        //     }
+        //     $("#banner").css({
+        //         backgroundImage: "url("+images[curentIndex]+")"
+        //     });
+            
+        // },5000);
+
+
+    </script>
+</body>
+</html>
