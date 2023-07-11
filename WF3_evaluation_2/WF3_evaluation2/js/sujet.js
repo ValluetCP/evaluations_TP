@@ -27,6 +27,7 @@ setInterval(() => {
 
 $(document).ready(function () {
   $("#defaultDate").datepicker();
+  $("#defaultDate2").datepicker();
 });
 
 
@@ -142,6 +143,79 @@ $(".next4").click(() => {
     curentIndex2 = 0;
   }
   $(".bg4").css({
+    backgroundImage: "url(" + image[curentIndex2] + ")",
+  });
+  console.log(image[curentIndex2]);
+});
+
+// voiture 5
+$(".prev5").click(() => {
+  curentIndex2--;
+  if (curentIndex2 < 0) {
+    curentIndex2 = image.length - 1;
+  }
+  $(".bg5").css({
+    backgroundImage: "url(" + image[curentIndex2] + ")",
+  });
+
+  console.log(image[curentIndex2]);
+});
+
+$(".next5").click(() => {
+  curentIndex2++;
+  if (curentIndex2 == image.length) {
+    curentIndex2 = 0;
+  }
+  $(".bg5").css({
+    backgroundImage: "url(" + image[curentIndex2] + ")",
+  });
+  console.log(image[curentIndex2]);
+});
+
+// voiture 6
+$(".prev6").click(() => {
+  curentIndex2--;
+  if (curentIndex2 < 0) {
+    curentIndex2 = image.length - 1;
+  }
+  $(".bg6").css({
+    backgroundImage: "url(" + image[curentIndex2] + ")",
+  });
+
+  console.log(image[curentIndex2]);
+});
+
+$(".next6").click(() => {
+  curentIndex2++;
+  if (curentIndex2 == image.length) {
+    curentIndex2 = 0;
+  }
+  $(".bg6").css({
+    backgroundImage: "url(" + image[curentIndex2] + ")",
+  });
+  console.log(image[curentIndex2]);
+});
+
+
+// voiture 7
+$(".prev7").click(() => {
+  curentIndex2--;
+  if (curentIndex2 < 0) {
+    curentIndex2 = image.length - 1;
+  }
+  $(".bg7").css({
+    backgroundImage: "url(" + image[curentIndex2] + ")",
+  });
+
+  console.log(image[curentIndex2]);
+});
+
+$(".next7").click(() => {
+  curentIndex2++;
+  if (curentIndex2 == image.length) {
+    curentIndex2 = 0;
+  }
+  $(".bg7").css({
     backgroundImage: "url(" + image[curentIndex2] + ")",
   });
   console.log(image[curentIndex2]);

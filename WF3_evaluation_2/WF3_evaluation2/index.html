@@ -21,6 +21,7 @@
     
 </head>
 <body>
+    <!-- ******************* HEADER ******************* -->
     <header>
         <div class="myDiv" style="display: none;">
             <ul>
@@ -36,19 +37,6 @@
         <div  id="toggleButton" class="menu"><a href=""></a>
             <i class="fa-solid fa-bars menu_barre"></i>
         </div>
-        <!-- <nav class="position-relative">
-            <div id="menu" class="dropdown d-flex justify-content-end position-absolute">
-                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </button>
-                <ul class="dropdown-menu w-100">
-                  <li><span class="dropdown-item-text"><p>Dropdown item text</p></span></li>
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </div>
-        </nav> -->
         <div class="titre">
             <h1>Bienvenue à bord</h1>
             <p>Location de voiture 24h/24 et 7j/7</p>
@@ -56,37 +44,39 @@
         <div id="banner">
         </div>
          <!-- Formulaire -->
-         <div class="formulaire">
-             <form action="">
-                 <select name="" id="">
-                     <option value="">Adresse de départ</option>
-                     <option value=""></option>
-                 </select>
-                 <div class="input-with-icon" style="position: relative;">
-                 <!-- <div class="input-with-icon" style="position: relative; width:240px;"> -->
-                    <i class="fa-regular fa-calendar"></i>
-                    <input type="text" id="defaultDate" placeholder="  Début de location" />
-                  </div>
-                 <div class="input-with-icon" style="position: relative;">
-                    <i class="fa-regular fa-calendar"></i>
-                    <input type="text" id="defaultDate" placeholder="  Fin de location" />
-                  </div>
-             </form>
-             <button class="valider">Valider ma recherche</button>
-         </div>
+        <div class="formulaire">
+            <form>
+                <select name="selectionner" id="select1">
+                    <option value="adresse">Adresse de départ</option>
+                    <option value="autre">Autre</option>
+                </select>
+                <div class="input-with-icon" style="position: relative;">
+                <!-- <div class="input-with-icon" style="position: relative; width:240px;"> -->
+                <i class="fa-regular fa-calendar"></i>
+                <input type="text" id="defaultDate" placeholder="  Début de location" />
+                </div>
+                <div class="input-with-icon" style="position: relative;">
+                <i class="fa-regular fa-calendar"></i>
+                <input type="text" id="defaultDate2" placeholder="  Fin de location" />
+                </div>
+            </form>
+            <button class="valider">Valider ma recherche</button>
+        </div>
          
     </header>
+    <!-- ******************* MAIN ******************* -->
     <main>
         <div class="container">
             <div class="sect">
                 <p class="resultat">7 résultats</p>
                 <div>
-                    <select name="" id="selection">
+                    <select name="selectionner" id="selection">
                         <option value="">Prix croissant</option>
                     </select>
                 </div>
             </div>
             <section class="sect1">
+                <!-- voiture 1 -->
                 <div class="module">
                     <div class="parent">
                         <div class="prev"><i class="fa-solid fa-play fa-rotate-180"></i></div>
@@ -178,9 +168,79 @@
                     </div>
                 </div>
                 <hr>
+                <!-- voiture 5 (phase cachée) -->
+                <div class="module">
+                    <div class="parent">
+                        <div class="prev5"><i class="fa-solid fa-play fa-rotate-180"></i></div>
+                        <div class="next5"><i class="fa-solid fa-play"></i></div>
+                        <div class="bg5">
+                            <!-- ici backgound -->
+                        </div>
+                    </div>
+                    <div class="txt_sect1">
+                        <div>
+                            <div class="disparition">
+                                <h2>Peugeot 208</h2>
+                                <p>Diesel 5 portes GPS. Autoradio. Forfait 1000km (0,5/km supplémentaire).</p>
+                                <p>999€ - Agence de Paris</p>
+                            </div>
+                            <div class="btn_vert">
+                                <button class="bouton">Réserver et payer</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <!-- voiture 6 -->
+                <div class="module">
+                    <div class="parent">
+                        <div class="prev6"><i class="fa-solid fa-play fa-rotate-180"></i></div>
+                        <div class="next6"><i class="fa-solid fa-play"></i></div>
+                        <div class="bg6">
+                            <!-- ici backgound -->
+                        </div>
+                    </div>
+                    <div class="txt_sect1">
+                        <div>
+                            <div class="disparition">
+                                <h2>Ford Focus</h2>
+                                <p>Diesel 5 portes GPS. Autoradio. Forfait 1000km (0,5/km supplémentaire).</p>
+                                <p>999€ - Agence de Paris</p>
+                            </div>
+                            <div class="btn_vert">
+                                <button class="bouton">Réserver et payer</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <!-- voiture 7 -->
+                <div class="module">
+                    <div class="parent">
+                        <div class="prev7"><i class="fa-solid fa-play fa-rotate-180"></i></div>
+                        <div class="next7"><i class="fa-solid fa-play"></i></div>
+                        <div class="bg7">
+                            <!-- ici backgound -->
+                        </div>
+                    </div>
+                    <div class="txt_sect1">
+                        <div>
+                            <div class="disparition">
+                                <h2>Audi A1</h2>
+                                <p>Diesel 5 portes GPS. Autoradio. Forfait 1000km (0,5/km supplémentaire).</p>
+                                <p>1100€ - Agence de Paris</p>
+                            </div>
+                            <div class="btn_vert">
+                                <button class="bouton">Réserver et payer</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
             </section>
         </div>
     </main>
+    <!-- ******************* FOOTER ******************* -->
     <footer>
         <div class="ftr">
             <div class="ftr_img">
@@ -197,30 +257,8 @@
             </div>
         </div>
     </footer>
-    
 
     <!-- ******************** NAV ******************** -->
-    <!-- NAV BARRE - https://getbootstrap.com/docs/5.3/components/navbar/#nav -->
-    
-
-    <!-- ******************* HEADER ******************* -->
-    <!--////// Caroussel //////-->
-    <!-- Automate -->
-    <!-- https://getbootstrap.com/docs/5.3/components/carousel/#autoplaying-carousels -->
-    
-
-    <!-- Formulaire -->
-   
-
-    <!-- ******************* MAIN ******************* -->
-    <!-- Basic exemple -->
-    <!-- https://getbootstrap.com/docs/5.3/components/carousel/#basic-examples -->
-
-    <!-- ------------- SECTION 1 ------------- -->
-    <!-- ------------- SECTION 2 ------------- -->
-    <!-- ------------- SECTION 3 ------------- -->
-    <!-- ------------- SECTION 4 ------------- -->
-
-    <!-- ******************* FOOTER ******************* -->
+     
 </body>
 </html>

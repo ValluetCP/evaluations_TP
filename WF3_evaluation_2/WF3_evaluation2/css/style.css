@@ -94,7 +94,7 @@ iframe, img{
     color: white;
     position: absolute;
     top: 80px;
-    left: 40%;
+    width: 100%;
 }
 
 /* Formulaire */
@@ -121,6 +121,7 @@ form{
 
 
 #defaultDate,
+#defaultDate2,
 select{
 width: 250px;
 height: 40px;
@@ -137,13 +138,15 @@ margin: 5px 10px;
     border: none;
 }
 
+.bouton{
+    margin-top: 100px;
+}
 
-
-.btn_vert{
+/* .btn_vert{
     height: 100%;
     display: flex;
     align-items: center;
-}
+} */
 
 /* SLIDE TOGGLE */
 
@@ -265,7 +268,7 @@ main{
 }
 
 .txt_sect1>div{
-    margin-left: 30px;
+        margin-left: 95px;
 }
 
 /* CAROUSSEL */
@@ -302,10 +305,35 @@ main{
     
 }
 
+.bg5{
+    /* margin: auto; */
+    height: 200px;
+    width: 350px;
+    background-image: url("../img/vehicule1.png");
+    
+}
+.bg6{
+    /* margin: auto; */
+    height: 200px;
+    width: 350px;
+    background-image: url("../img/vehicule2.png");
+    
+}
+.bg7{
+    /* margin: auto; */
+    height: 200px;
+    width: 350px;
+    background-image: url("../img/vehicule3.png");
+    
+}
+
 .next,
 .next2,
 .next3,
-.next4{
+.next4,
+.next5,
+.next6,
+.next7{
     font-size: xx-large;
     position: absolute;
     top: 80px;
@@ -317,7 +345,10 @@ main{
 .prev,
 .prev2,
 .prev3,
-.prev4{
+.prev4,
+.prev5,
+.prev6,
+.prev7{
     font-size: xx-large;
     position: absolute;
     top: 80px;
@@ -364,7 +395,7 @@ footer{
     position: absolute;
     width: 70%;
     left: 15%;
-    top: 2105px;
+    top: 3424px;
     
 }
 
@@ -403,8 +434,28 @@ footer{
 
 
 
-/***************** max-width: 960px *****************/
-@media (max-width: 960px) {
+
+
+/***************** max-width: 1400px *****************/
+@media (max-width: 1400px) {
+    .formulaire {
+        left: 8%;
+    }
+
+    footer {
+        top: 3582px;
+    }
+}
+
+/***************** max-width: 1220px *****************/
+@media (max-width: 1220px) {
+    /* .formulaire {
+        left: 8%;
+    } */
+
+    .txt_sect1>div {
+        margin-left: 35px;
+    }
     form{
         width: 100%;
         bottom: 245px;
@@ -424,7 +475,8 @@ footer{
     }
 
     select,
-    #defaultDate{
+    #defaultDate,
+    #defaultDate2{
         width: 270px;
         /* float: left; */
         
@@ -443,11 +495,78 @@ footer{
         display: none;
     }
 
-    .btn_vert{
+    footer {
+        top: 3060px;
+    }
+
+    
+}
+
+
+/***************** max-width: 960px *****************/
+@media (max-width: 960px) {
+
+    h1{
+        font-size: 40px;
+    }
+
+    form{
+        width: 100%;
+        bottom: 245px;
+        left: 5%;
+        /* display: flex; */
+        justify-content: space-between;
+        
+    }
+
+    .formulaire{
+        width: 90%;
+        /* margin: auto; */
+        display: block;
+        bottom: 245px;
+        left: 5%;
+        
+    }
+
+    select,
+    #defaultDate,
+    #defaultDate2{
+        width: 215px;
+        /* float: left; */
+        
+    }
+
+    .valider{
+        width: 100%;
+    }
+    .fa-calendar {
+        position: absolute;
+        top: 15px;
+        right: 25px;
+    }
+
+    .disparition{
+        display: none;
+    }
+
+    /* .btn_vert{
         margin-top: 100px;
         margin-left: 30px;
     }
-    
+     */
+}
+
+/***************** max-width: 890px *****************/
+@media (max-width: 890px) {
+    .bouton {
+        padding: 5px 10px;
+    }
+
+    main {
+        position: absolute;
+        width: 80%;
+        left: 12%;
+    }
 }
 
 
@@ -467,20 +586,24 @@ footer{
     .formulaire{
         width: 90%;
         /* margin: auto; */
-        bottom: 245px;
+        bottom: 370px;
         left: 5%;
         
     }
 
     select,
-    #defaultDate{
+    #defaultDate,
+    #defaultDate2{
         width: 100%;
         margin: 5px 0px;
     }
 }
 
 
-/* @media (max-width: 576px) {
+@media (max-width: 576px) {
     
-
-} */
+    footer{
+        width: 100%;
+        
+    }
+}
