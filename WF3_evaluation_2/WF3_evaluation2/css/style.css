@@ -77,12 +77,15 @@ iframe, img{
 
 /* banner */
 #banner{
+    position: absolute;
+    top: 0;
     width: 100%;
     height: 700px;
     background-image: url("../img/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    z-index: -1;
 }
 
 .titre{
@@ -98,18 +101,24 @@ iframe, img{
 
 .formulaire{
     position: absolute;
+    display: flex;
+    bottom: 300px;
+    left: 20%;
 }
 
 form{
     background-color: rgba(255, 255, 255, 0.564);
+    display: flex;
 }
 
 /* DATE PICKER */
 .fa-calendar {
     position: absolute;
-    top: 3px;
-    right: 3px;
-  }
+    top: 18px;
+    right: 28px;
+}
+
+
 
 #defaultDate,
 select{
@@ -117,15 +126,70 @@ width: 250px;
 height: 40px;
 border: 1px solid white;
 border-radius: 5px;
-margin: 5px 0;
+margin: 5px 10px;
 }
 
 .valider{
     width: 250px;
-    height: 40px;
+    height: 50px;
     background-color: #419b42aa;
     color: white;
     border: none;
+}
+
+
+
+.btn_vert{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/* SLIDE TOGGLE */
+
+/* body{
+    margin: 0;
+    padding: 0;
+} */
+#toggleButton{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#myDiv{
+    position: absolute;
+
+}
+ul{
+    margin-top: 50px;
+    background-color: white;
+    padding: 20px;
+    list-style-type: none;
+}
+
+ul>li{
+    margin: 10px;
+    color: grey;
+}
+
+/* MENU */
+
+.menu{
+    color: white;
+    border: 1px solid ;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.menu_barre{
+    font-size: 50px;
+    /* font-weight: 1px; */
+    color: white;
+    
+
 }
 
 
@@ -144,13 +208,33 @@ margin: 5px 0;
     margin: auto;
 }
 
+main{
+    position: absolute;
+    top: 700px;
+    width: 70%;
+    margin: auto;
+    left: 15%;
+}
+
 /***************** DIV *****************/
 
 
 .sect{
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
+}
 
+#selection{
+    background-image: linear-gradient(#fafafa, #e6e6e6 );
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.resultat{
+    font-size: 20px;
+    font-weight: bold;
 }
 
 /***************** SECTION 1 *****************/
@@ -159,6 +243,7 @@ margin: 5px 0;
     display: flex;
     margin: auto;
     justify-content: space-around;
+    margin-bottom: 50px;
 }
 
 .bouton{
@@ -171,8 +256,7 @@ margin: 5px 0;
 }
 
 /* .sect1{
-    max-width: 70%;
-    margin: auto;
+    margin-bottom: 50px;
 } */
 
 .txt_sect1 p{
@@ -196,8 +280,32 @@ margin: 5px 0;
     background-image: url("../img/vehicule1.png");
     
 }
+.bg2{
+    /* margin: auto; */
+    height: 200px;
+    width: 350px;
+    background-image: url("../img/vehicule2.png");
+    
+}
+.bg3{
+    /* margin: auto; */
+    height: 200px;
+    width: 350px;
+    background-image: url("../img/vehicule3.png");
+    
+}
+.bg4{
+    /* margin: auto; */
+    height: 200px;
+    width: 350px;
+    background-image: url("../img/vehicule4.png");
+    
+}
 
-.next{
+.next,
+.next2,
+.next3,
+.next4{
     font-size: xx-large;
     position: absolute;
     top: 80px;
@@ -206,7 +314,10 @@ margin: 5px 0;
     right: 450px; */
 }
 
-.prev{
+.prev,
+.prev2,
+.prev3,
+.prev4{
     font-size: xx-large;
     position: absolute;
     top: 80px;
@@ -223,6 +334,10 @@ margin: 5px 0;
 
 .fa-solid{
     font-size: 20px;
+}
+
+hr{
+    margin-bottom: 80px;
 }
 
 /*  ------------- Fin SECTION 1 ------------- */
@@ -244,6 +359,34 @@ margin: 5px 0;
 
 /*//////////////////// FOOTER ////////////////////*/
 
+footer{
+    
+    position: absolute;
+    width: 70%;
+    left: 15%;
+    top: 2105px;
+    
+}
+
+.ftr{
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.ftr_img{
+    width: 200px;
+}
+/* main{
+    position: absolute;
+    top: 700px;
+    width: 70%;
+    margin: auto;
+    left: 15%;
+} */
+
 /*  --------------- Fin FOOTER--------------- */
 
 
@@ -264,9 +407,9 @@ margin: 5px 0;
 @media (max-width: 960px) {
     form{
         width: 100%;
-        bottom: 0px;
+        bottom: 245px;
         left: 5%;
-        display: flex;
+        /* display: flex; */
         justify-content: space-between;
         
     }
@@ -274,14 +417,15 @@ margin: 5px 0;
     .formulaire{
         width: 90%;
         /* margin: auto; */
-        bottom: 0px;
+        display: block;
+        bottom: 245px;
         left: 5%;
         
     }
 
     select,
     #defaultDate{
-        width: 300px;
+        width: 270px;
         /* float: left; */
         
     }
@@ -289,6 +433,21 @@ margin: 5px 0;
     .valider{
         width: 100%;
     }
+    .fa-calendar {
+        position: absolute;
+        top: 15px;
+        right: 25px;
+    }
+
+    .disparition{
+        display: none;
+    }
+
+    .btn_vert{
+        margin-top: 100px;
+        margin-left: 30px;
+    }
+    
 }
 
 
@@ -301,21 +460,22 @@ margin: 5px 0;
         bottom: 0px;
         left: 5%;
         display: block;
+        padding: 5px;
         
     }
 
     .formulaire{
         width: 90%;
         /* margin: auto; */
-        bottom: 0px;
+        bottom: 245px;
         left: 5%;
         
     }
 
     select,
-    #defaultDate,
-    .valider{
+    #defaultDate{
         width: 100%;
+        margin: 5px 0px;
     }
 }
 

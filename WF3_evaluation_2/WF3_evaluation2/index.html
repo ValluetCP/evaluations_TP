@@ -22,7 +22,21 @@
 </head>
 <body>
     <header>
-        <nav class="position-relative">
+        <div class="myDiv" style="display: none;">
+            <ul>
+                <li>Louer une voiture</li>
+                <li>Louer un utilitaire</li>
+                <li>Réserver un chauffeur</li>
+                <li>Découvrez nos agences</li>
+                <li>Mon compte</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <!-- <button id="toggleButton"><i class="fa-solid fa-bars menu_barre"></i></button> -->
+        <div  id="toggleButton" class="menu"><a href=""></a>
+            <i class="fa-solid fa-bars menu_barre"></i>
+        </div>
+        <!-- <nav class="position-relative">
             <div id="menu" class="dropdown d-flex justify-content-end position-absolute">
                 <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Dropdown
@@ -34,7 +48,7 @@
                   <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
               </div>
-        </nav>
+        </nav> -->
         <div class="titre">
             <h1>Bienvenue à bord</h1>
             <p>Location de voiture 24h/24 et 7j/7</p>
@@ -65,9 +79,9 @@
     <main>
         <div class="container">
             <div class="sect">
-                <p>7 résultats</p>
+                <p class="resultat">7 résultats</p>
                 <div>
-                    <select name="" id="">
+                    <select name="" id="selection">
                         <option value="">Prix croissant</option>
                     </select>
                 </div>
@@ -88,14 +102,102 @@
                                 <p>Diesel 5 portes GPS. Autoradio. Forfait 1000km (0,5/km supplémentaire).</p>
                                 <p>999€ - Agence de Paris</p>
                             </div>
-                            <button class="bouton">Réserver et payer</button>
+                            <div class="btn_vert">
+                                <button class="bouton">Réserver et payer</button>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <hr>
+                <!-- voiture 2 -->
+                <div class="module">
+                    <div class="parent">
+                        <div class="prev2"><i class="fa-solid fa-play fa-rotate-180"></i></div>
+                        <div class="next2"><i class="fa-solid fa-play"></i></div>
+                        <div class="bg2">
+                            <!-- ici backgound -->
+                        </div>
+                    </div>
+                    <div class="txt_sect1">
+                        <div>
+                            <div class="disparition">
+                                <h2>Ford Focus</h2>
+                                <p>Diesel 5 portes GPS. Autoradio. Forfait 1000km (0,5/km supplémentaire).</p>
+                                <p>999€ - Agence de Paris</p>
+                            </div>
+                            <div class="btn_vert">
+                                <button class="bouton">Réserver et payer</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <!-- voiture 3 -->
+                <div class="module">
+                    <div class="parent">
+                        <div class="prev3"><i class="fa-solid fa-play fa-rotate-180"></i></div>
+                        <div class="next3"><i class="fa-solid fa-play"></i></div>
+                        <div class="bg3">
+                            <!-- ici backgound -->
+                        </div>
+                    </div>
+                    <div class="txt_sect1">
+                        <div>
+                            <div class="disparition">
+                                <h2>Audi A1</h2>
+                                <p>Diesel 5 portes GPS. Autoradio. Forfait 1000km (0,5/km supplémentaire).</p>
+                                <p>1100€ - Agence de Paris</p>
+                            </div>
+                            <div class="btn_vert">
+                                <button class="bouton">Réserver et payer</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <!-- voiture 4 -->
+                <div class="module">
+                    <div class="parent">
+                        <div class="prev4"><i class="fa-solid fa-play fa-rotate-180"></i></div>
+                        <div class="next4"><i class="fa-solid fa-play"></i></div>
+                        <div class="bg4">
+                            <!-- ici backgound -->
+                        </div>
+                    </div>
+                    <div class="txt_sect1">
+                        <div>
+                            <div class="disparition">
+                                <h2>Opel Mokka</h2>
+                                <p>Diesel 5 portes GPS. Autoradio. Forfait 1000km (0,5/km supplémentaire).</p>
+                                <p>1150€ - Agence de Paris</p>
+                            </div>
+                            <div class="btn_vert">
+                                <button class="bouton">Réserver et payer</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
             </section>
-           
-        </main>
         </div>
+    </main>
+    <footer>
+        <div class="ftr">
+            <div class="ftr_img">
+                <img src="./img/agence.jpg" alt="">
+            </div>
+            <div>
+                <p>
+                    Notre Agence de Paris <br>
+                    300 boulevard de vaugirard, 75015, Paris <br>
+                    Ouvert 7j/7 de 09h à 13h et de 14h à 20h <br>
+                    01 49 78 21 33 <br>
+                    contact@vtc.com
+                </p>
+            </div>
+        </div>
+    </footer>
+    
 
     <!-- ******************** NAV ******************** -->
     <!-- NAV BARRE - https://getbootstrap.com/docs/5.3/components/navbar/#nav -->
