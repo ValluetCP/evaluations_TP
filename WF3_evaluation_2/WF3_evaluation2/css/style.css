@@ -64,19 +64,71 @@ iframe, img{
 /******************* HEADER *******************/
 /* Position */
 
-.formulaire {
-    bottom: 20px;
-    left: 20%;
-  }
+#menu{
+    /* position: absolute; */
+    top: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.position-relative{
+    position: relative;
+}
+
+/* banner */
+#banner{
+    width: 100%;
+    height: 700px;
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.titre{
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 80px;
+    left: 40%;
+}
 
 /* Formulaire */
-select,
-input{
-    border: 1px solid rgb(6, 170, 121);
-    border-radius: 10px;
-    height: 40px;
 
+.formulaire{
+    position: absolute;
 }
+
+form{
+    background-color: rgba(255, 255, 255, 0.564);
+}
+
+/* DATE PICKER */
+.fa-calendar {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+  }
+
+#defaultDate,
+select{
+width: 250px;
+height: 40px;
+border: 1px solid white;
+border-radius: 5px;
+margin: 5px 0;
+}
+
+.valider{
+    width: 250px;
+    height: 40px;
+    background-color: #419b42aa;
+    color: white;
+    border: none;
+}
+
+
 
 /*  --------------- Fin HEADER --------------- */
 
@@ -87,12 +139,91 @@ input{
 
 /*//////////////////// MAIN ////////////////////*/
 
-.disparition-ecran{
-    display: none;
+.container{
+    max-width: 1200px;
+    margin: auto;
 }
 
+/***************** DIV *****************/
+
+
+.sect{
+    display: flex;
+    justify-content: space-between;
+
+}
 
 /***************** SECTION 1 *****************/
+
+.module{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.bouton{
+    background-color:#419b43;
+    color: white;
+    /* height: 50px; */
+    border-radius: 5px;
+    padding: 5px 20px;
+    border: 1px solid #419b43;
+}
+
+/* .sect1{
+    max-width: 70%;
+    margin: auto;
+} */
+
+.txt_sect1 p{
+    margin: 10px 0px;
+    /* width: 60%;  */
+}
+
+.txt_sect1>div{
+    margin-left: 30px;
+}
+
+/* CAROUSSEL */
+.caroussel{
+   width: 40%; 
+}
+
+.bg{
+    /* margin: auto; */
+    height: 200px;
+    width: 350px;
+    background-image: url("../img/vehicule1.png");
+    
+}
+
+.next{
+    font-size: xx-large;
+    position: absolute;
+    top: 80px;
+    right: -30px;
+    /* top: 150px;
+    right: 450px; */
+}
+
+.prev{
+    font-size: xx-large;
+    position: absolute;
+    top: 80px;
+    /* left: 35%; */
+    /* top: 150px; */
+    left: -30px;
+}
+
+.parent{
+    position: relative;
+    /* margin: auto; */
+    width: 350px;
+}
+
+.fa-solid{
+    font-size: 20px;
+}
 
 /*  ------------- Fin SECTION 1 ------------- */
 
@@ -122,26 +253,74 @@ input{
 
 /* MEDIAQUERY - https://getbootstrap.com/docs/5.3/layout/breakpoints/#media-queries */
 
-
 /***************** max-width: px *****************/
 /* @media (max-width: px) {
 
 } */
-/*  ------------- max-width: px ------------- */
+
+
+
+/***************** max-width: 960px *****************/
+@media (max-width: 960px) {
+    form{
+        width: 100%;
+        bottom: 0px;
+        left: 5%;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    .formulaire{
+        width: 90%;
+        /* margin: auto; */
+        bottom: 0px;
+        left: 5%;
+        
+    }
+
+    select,
+    #defaultDate{
+        width: 300px;
+        /* float: left; */
+        
+    }
+
+    .valider{
+        width: 100%;
+    }
+}
+
+
+/***************** max-width: 768px *****************/
 
 @media (max-width: 768px) {
     
-    .disparition-ecran{
+    form{
+        width: 100%;
+        bottom: 0px;
+        left: 5%;
         display: block;
+        
     }
 
-    .disparition-mobile{
-        display: none;
+    .formulaire{
+        width: 90%;
+        /* margin: auto; */
+        bottom: 0px;
+        left: 5%;
+        
+    }
+
+    select,
+    #defaultDate,
+    .valider{
+        width: 100%;
     }
 }
 
 
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
     
 
-}
+} */
